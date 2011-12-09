@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+		<meta charset="utf-8" />
+	
+	<title>Monoku Selecta</title>
+	<link rel="stylesheet" type="text/css" href="src/monokuselecta.css" />
+</head>
+<body>
+	<a href="http://github.com/monoku/monokuselecta/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
+		
+	<h1>Monoku Selecta</h1>
+	<p>This is the tester:</p>
+	<select class="my-selector">
+		<option>
+			Option one
+		</option>
+		<option value="le-option-two">
+			Option two
+		</option>
+		<option>
+			Option three
+		</option>
+		<option>
+			Option four
+		</option>
+		<option>
+			Option five
+		</option>
+	</select>
+
+	<p>Another selector...</p>
+	<select class="my-selector" name="yeah">
+		<option>
+			Another Option one with a large name
+		</option>
+		<option value="le-other-option-two">
+			Another Option two
+		</option>
+		<option>
+			Another Option three
+		</option>
+		<option>
+			Another Option four
+		</option>
+		<option>
+			Another Option five
+		</option>
+	</select>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.1/mootools-yui-compressed.js"></script>	
+	<script type="text/javascript" src="src/monokuselecta.js"></script>
+	<script type="text/javascript">
+	new MonokuSelecta(".my-selector");
+	</script>
+</body>
+</html>
