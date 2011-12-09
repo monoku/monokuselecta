@@ -1,0 +1,37 @@
+html{
+	font-family: sans-serif;
+	color: #333;
+	font-size: 16px;
+}
+.monoku-selecta-wrapper{
+	border: 1px solid #666;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	overflow: hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+}
+
+.monoku-selecta-wrapper .value{
+	display: inline-block;
+	padding: 4px 32px 4px 8px;
+}
+.monoku-selecta-wrapper .arrow{
+	background: #666;
+	position: absolute;
+	color: white;
+	right: 0;
+	top: 0;
+	padding: 0 6px;
+	height: 100%;
+	line-height: 2.5em;
+	vertical-align: middle;
+	font-size: 0.75em;
+}
+.monoku-selecta-select{
+	position: absolute;
+	top: -99999em;
+	font-size: 16px;
+}

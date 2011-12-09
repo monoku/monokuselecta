@@ -1,0 +1,15 @@
+h1. Monoku Selecta
+
+By David Avellaneda & John Acosta [Monoku]
+
+Monoku Selecta is a Mootools based select extension, it creates a wrapper and let you style the select element. We hated the mooselecta, so we did this one :)
+
+h2. Usage
+
+Just Use the MonokuSelecta class with your selector:  
+@new MonokuSelecta(".my-selector");@
+
+h2. Copyright and Licensing
+
+Copyright 2011 Germán David Avellaneda Ballén Licensed under the Apache License, Version 2.0 
+"http://www.apache.org/licenses/LICENSE-2.0":http://www.apache.org/licenses/LICENSE-2.0
