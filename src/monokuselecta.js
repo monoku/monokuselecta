@@ -52,7 +52,6 @@ var MonokuSelecta = new Class({
     },
 
     doSelectByEnter: function(evt){
-        console.log(evt.key);
         if(evt.key == 'enter'){
             this.style.top="-99999em";
             this.blur();
