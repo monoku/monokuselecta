@@ -83,7 +83,7 @@
                 index = tabable.indexOf(this.retrieve('wrapper').getElement('input'))
                 if(evt.shift)
                     direction = -1
-                if(index+direction<tabable.length)
+                if(tabable[index+direction])
                     tabable[index+direction].focus()
             }
         },
