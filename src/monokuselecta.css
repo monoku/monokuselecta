@@ -12,9 +12,9 @@ html{
 }
 .monoku-selecta-wrapper .value{
 	display: inline-block; 
-	padding: 0.6em 0.6em 0.4em; 
+	padding: 0.6em 3em 0.4em 0.6em; 
 	font-size: 1.1em; 
-	min-width: 13em;
+	min-width: 10em;
 }
 .monoku-selecta-wrapper .arrow{
 	background: #666;
